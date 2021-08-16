@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-icons">
+          <!-- single item -->
+          <li>
+            <a href="https://www.facebook.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.linkedin.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <header class="projects-hero">
+      <!-- section title -->
+      <div class="section-title">
+        <h1>Donations</h1>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+    </header>
+    <section class="section">
+      <div class="section-center">
+        <p>Please Fill out every section of the form to make a donation.</p>
+        <p>We appreciate your fundings because every contribution counts and saves lives.</p>
+        
+        <section class="payments">
+<div id="smart-button-container">
+    <div style="text-align: center"><label for="description">Cause for donation </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+    <div style="text-align: center"><label for="amount">Amount </label><input name="amountInput" type="number" id="amount" value="" ><span> USD</span></div>
+      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+    <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
+      <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+  </div>
+  
+  <script src="https://www.paypal.com/sdk/js?client-id=AcU4yk8Yab1_t7Vsdt6O5wQR32rlcadvo_FRKYpYw3Sd2aDi1eu7TlYtISywMloPijtmysf69Oa1ox97" data-sdk-integration-source="button-factory"></script>
+  <script src="payment.js"></script>
+      </section>
+      </div>
+    </section>
+
+  
+</body>
+</html>
+
+    <!-- footer -->
+    <footer class="footer">
+      <ul class="social-icons">
+        <!-- single item -->
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <!-- end of single item -->
+        <!-- single item -->
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- end of single item -->
+        <!-- single item -->
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <!-- end of single item -->
+        <!-- single item -->
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <!-- end of single item -->
+        <!-- single item -->
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <!-- end of single item -->
+      </ul>
+
+      <p>&copy; <span id="date"></span> The Omega Sparks Banks. All rights reserved.</p>
+      <p>Made By: SAMBHAV AGGARWAL</p>
+    </footer>
+    
+    <script src="./js/app.js"></script>
+
+  </body>
+</html>
+
+
+
+
