@@ -33,3 +33,9 @@ PAYMENT RECIEPT PRINT
 TRANSACTION HISTORY
 
 <img src="https://github.com/SambhavAggarwal01/Sparks-Payment-Integration-Project/blob/main/Project%20Screenshots/transaction%20history.png" alt="Transaction History"/>
+
+PROJECT VIDEO
+
+<video controls autoplay muted loop>
+<source src="https://github.com/SambhavAggarwal01/Sparks-Payment-Gateway-Project.github.io/blob/main/sparks-project-screen-recording_compressed.mp4" type="video/mp4" />
+</video>
